@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-image: url(/image/wave-haikei\ \(1\).pn);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50rem;
+  background-color: #fffefe;
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+  background: #FFFFFF;
+}
+header .header_img {
+  position: relative;
+  left: 1rem;
+}
+header ul {
+  display: flex;
+}
+header li {
+  display: flex;
+}
+header a {
+  text-decoration: none;
+  color: rgba(53, 53, 53, 0.75);
+  margin: 1rem;
+}
+header .login_btn {
+  position: relative;
+  left: 2rem;
+}
+header .header_btn {
+  width: 126px;
+  height: 34px;
+  bottom: 0.9rem;
+  background: #FF9000;
+  border-radius: 30px;
+  border: none;
+  color: whitesmoke;
+  margin: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.discover_section {
+  display: flex;
+  justify-content: space-between;
+  background: #FEF9F3;
+}
+.discover_section h1 {
+  width: 356px;
+  height: 104px;
+  left: 40px;
+  top: 96px;
+  position: relative;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #656b6a;
+}
+.discover_section .discover_text {
+  position: relative;
+  width: 352px;
+  height: 135px;
+  left: 40px;
+  top: 80px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 34px;
+  color: #656b6a;
+}
+.discover_section .Get_started_btn {
+  position: relative;
+  width: 231px;
+  height: 49px;
+  left: 39px;
+  top: 12rem;
+  background: #FF9000;
+  border-radius: 60px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.discover_section .hero_illo_img {
+  position: relative;
+  right: 2rem;
+  top: 4rem;
+  height: 17rem;
+  margin-bottom: 10rem;
+}
+
+.practice-section {
+  display: flex;
+  justify-content: space-between;
+  color: #656b6a;
+}
+.practice-section .system-img {
+  position: relative;
+  left: 15px;
+  top: 10rem;
+}
+.practice-section .img {
+  height: 13rem;
+}
+.practice-section h2 {
+  position: absolute;
+  width: 450px;
+  height: 73px;
+  right: 24rem;
+  top: 690px;
+  color: #656b6a;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+.practice-section .practice-main-text {
+  position: relative;
+  right: 3rem;
+  top: 15rem;
+  width: 23rem;
+  height: 179px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h3 {
+  width: 166px;
+  height: 73px;
+  left: 50px;
+  top: 17rem;
+  position: relative;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 38px;
+  color: #656b6a;
+}
+
+.platform-text {
+  position: relative;
+  width: 90px;
+  left: 15rem;
+  top: 8rem;
+  color: #656b6a;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  line-height: 21px;
+}
+
+.icon-row-1 {
+  position: relative;
+  left: 10rem;
+  top: 12rem;
+}
+
+.icon_texts {
+  display: flex;
+}
+
+.platform-text-row-2, .portfolio-text {
+  position: relative;
+  left: 30rem;
+  width: 90px;
+  top: 9rem;
+  color: #656b6a;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  line-height: 21px;
+}
+
+.portfolio-text {
+  position: relative;
+  top: 12rem;
+}
+
+.portfolio {
+  position: relative;
+  top: 16rem;
+  left: 25rem;
+}
+
+.icon-row-2 {
+  position: relative;
+  left: 25rem;
+  top: 13rem;
+}
+
+.demo_text_contact_btn {
+  display: flex;
+  position: relative;
+  top: 14rem;
+  left: 15rem;
+}
+.demo_text_contact_btn .demo-text {
+  position: relative;
+  width: 563px;
+  height: 64px;
+  left: 5px;
+  color: #202020;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+}
+.demo_text_contact_btn .contact_btn {
+  box-sizing: border-box;
+  position: relative;
+  width: 128px;
+  height: 40px;
+  left: 7rem;
+  border: 1px solid #757575;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.timi-section {
+  position: relative;
+  width: 943px;
+  height: 386px;
+  left: 109px;
+  top: 20rem;
+  background: linear-gradient(180deg, #FF9000 50%, #EA7700 100%);
+  border-radius: 40px;
+}
+.timi-section .timi_name {
+  width: 101px;
+  height: 33px;
+  top: 6rem;
+  left: 6.5rem;
+  color: #656b6a;
+  position: relative;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+}
+.timi-section .timi_text {
+  position: relative;
+  color: #e6f0ee;
+  width: 560px;
+  height: 138px;
+  left: 100px;
+  top: 7rem;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 49px;
+}
+.timi-section .timi-img {
+  position: absolute;
+  width: 393px;
+  height: 393px;
+  left: 619px;
+  top: 29px;
+}
+
+.industry-text {
+  position: relative;
+  width: 405px;
+  height: 33px;
+  left: 419px;
+  top: 25rem;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #757575;
+}
+
+.logos {
+  position: relative;
+  top: 27rem;
+  left: 18.2rem;
+}
+
+footer {
+  position: relative;
+  height: 5rem;
+  width: auto;
+  top: 50rem;
+  border-radius: 0px;
+  background: rgb(3, 33, 29);
+  padding-bottom: 20rem;
+}
+footer h4 {
+  position: relative;
+  left: 41.32%;
+  right: 43.06%;
+  top: 5rem;
+  bottom: 81.41%;
+  color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+}
+footer .footer-text {
+  position: relative;
+  left: 34.79%;
+  right: 34.93%;
+  top: 5rem;
+  bottom: 75.15%;
+  color: #fff8f8;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+footer .footer-btn {
+  position: relative;
+  padding: 15px 15px;
+  left: 31rem;
+  top: 11rem;
+  color: #fffbfb;
+  background: #FF9000;
+  border-radius: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
